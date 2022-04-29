@@ -54,6 +54,6 @@ for(i_doc in 1:length(course_corpus) ) {
 }
 
 #The destination directory should pre-exist.
-writeCorpus(course_corpus, "C:/Users/Kumaran Ponnambalam/Desktop/Exercise Files/SavedCorpus" )
+writeCorpus(course_corpus, "C:/Users/Ibtissam Makdoun/Desktop/Exercise Files/SavedCorpus" )
 
 #--------------------------------------------------------------------------
