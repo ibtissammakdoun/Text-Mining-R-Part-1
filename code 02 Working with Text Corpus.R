@@ -36,7 +36,7 @@ meta(course_corpus[[1]])
 course_corpus[[1]]$meta$id
 
 #Set a value for an attribute
-course_corpus[[1]]$meta$author <- "Kumaran Ponnambalam"
+course_corpus[[1]]$meta$author <- "Ibtissam Makdoun"
 course_corpus[[1]]$meta$type <- "Courses"
 
 #Display the attributes again
