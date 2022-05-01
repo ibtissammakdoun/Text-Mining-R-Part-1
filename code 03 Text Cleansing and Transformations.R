@@ -14,7 +14,7 @@ library(tm)
 
 
 #Load text files into the VCorpus
-course_corpus <- VCorpus(DirSource("C:/Users/Kumaran Ponnambalam/Desktop/Exercise Files/data"))
+course_corpus <- VCorpus(DirSource("data"))
 
 #Function that prints data about the corpus
 #-----input : processing_step <- Description of the step
@@ -109,7 +109,7 @@ df_metadata
 #Note: This wont save meta data. If required,  
 #the metadata's dataframe should be persisted seperately 
 
-writeCorpus(course_corpus5, "C:/Users/Kumaran Ponnambalam/Desktop/Exercise Files/CleanCorpus" )
+writeCorpus(course_corpus5, "CleanCorpus" )
 
 #--------------------------------------------------------------------------
 
